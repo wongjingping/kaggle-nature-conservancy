@@ -1,5 +1,6 @@
 data/test_stg1/
 data/train/
+models/
 plots/
 
 .DS_Store
