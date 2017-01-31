@@ -32,8 +32,8 @@ ui <- bootstrapPage(
 	actionButton('save', 'save'),
 	actionButton('clear', 'clear'),
 	actionButton('back', 'back'),
-	numericInput('row', 'go to image', 1),
-	actionButton('go', 'go')
+	actionButton('go', 'go'),
+	numericInput('row', 'go to image', 1)
 )
 
 server <- function(input, output) {
