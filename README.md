@@ -19,6 +19,7 @@ This repository contains my efforts for the Kaggle Nature Conservancy Challenge.
 ## Effort Tracker
  - tried pre-trained and from-scratch vgg16 on contain and coord with SGD lr > 1e-3 on train_fold1, will run into nan
  - tried smaller vgg16 (less features) with RMS prop lr 1e-4 for coord could get train MAE ~52 after 9 epochs for train_fold1, while validation MAE fluctuates around 40-50
+ - tried full vgg16 net with max-all layer on verified annotations. Loss seems to decrease after 30 epochs but need to chart out history to verify. Can't get probability predictions with functional API; need to code out sequential model instead
  - try smaller nets for coord / contain?
 
 ## Quick Ref
