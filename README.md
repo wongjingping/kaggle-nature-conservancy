@@ -15,6 +15,7 @@ This repository contains my efforts for the Kaggle Nature Conservancy Challenge.
    - YFT 3044 - 3345 (301 of 735, 41%)
  - data/train.csv contains the 'merged' annotations from my markers.csv file and [nathaniel's annotations](https://github.com/nathanie/kaggleNatureConservancy)
  - Fish.ipynb contains the exploration and explanation behind the way I wrote my code. A functional 'productionalized' script will be released once the model and exploration has proved stable.
+ - AWS.sh contains some shell commands used to launch an AWS GPU instance with the Udacity CarND Image, plus some environment setup
 
 ## Effort Tracker
  - tried pre-trained and from-scratch vgg16 on contain and coord with SGD lr > 1e-3 on train_fold1, will run into nan
