@@ -5,6 +5,7 @@ data/train.zip
 data/__MACOSX/
 models/
 plots/
+graph*
 
 .DS_Store
 .Rhistory
